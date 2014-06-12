@@ -15,6 +15,11 @@ function ItemManager($scope,Item) {
 }
 
 function SingleController($scope,Item){
-    $scope.itemType = Item.current().type;
+    $scope.curItem = Item.current();
+
+    $scope.selectOption = function (row){
+        console.log("selectOption :: " + row );
+        $scope.selectRow = row;
+    }
 
 }

@@ -1,4 +1,25 @@
 <div ng-controller="SingleController">
-    {{itemType}}
+    <div class="questionContainer radius">
+        <div class="question">{{curItem.content.title}}</div>
+        <div class="divider"></div>
+        <div class="answers">
+            <ul>
+                <li ng-repeat="(aOptionId, aOption) in curItem.content.options">
+                    <div class="answer a radius" ng-class='{answerSelected : $index==selectRow}'
+                         ng-click='selectOption($index)'>
+                        <div class="answerButton">
+                            <img alt="" ng-src="./image/{{$index}}_btn.png">
+                            <input id="option_{{aOptionId}}" class="ans" type="radio" name="q1" >
+                        </div>
+                        <div class="answerText">
+                            {{aOption}}
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+            <div class="next buttonHover" style="visibility: visible;"></div>
+        </div>
+    </div>
 
 </div>
