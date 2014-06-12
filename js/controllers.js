@@ -1,12 +1,20 @@
-function ItemManager($scope) {
 
+function ItemManager($scope,Item) {
+    var curItem;
 
+    $scope.showerUrl = "begin";
+    $scope.showNextItem = function (){
+        console.log("showNextItem");
+        curItem = Item.next();
 
-    $scope.item = {
-        "type": "single"
-    };
+        if(curItem.type == "single"){
+            console.log("showNextItem::single");
+            $scope.showerUrl = curItem.type;
+        }
+    }
 }
 
-function SingleController($scope){
-    $scope.itemType = $scope.item.type;
+function SingleController($scope,Item){
+    $scope.itemType = Item.current().type;
+
 }

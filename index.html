@@ -1,16 +1,26 @@
 <!doctype html>
-<html ng-app>
+<html ng-app="displayitem">
 <head>
     <script src="./js/angular.min.js"></script>
     <script src="js/controllers.js"></script>
-
+    <script src="services/services.js"> </script>
+    <script type="text/javascript">
+        if(!console){
+            var console = {
+                log : function(message){
+                    alert(message);
+                }
+        }
+        }
+    </script>
 
 </head>
 <body ng-controller="ItemManager">
 
 
-    <div ng-include="'./view/itemOne.html'"></div>
+    <div ng-include="'./view/' + showerUrl + '.html'"></div>
 
 
+    <input type="button" value="get next item" ng-click="showNextItem()">
 </body>
 </html>
