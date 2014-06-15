@@ -49,5 +49,9 @@ function FillinController($scope,Item){
     $scope.changeResult = function(){
         Item.setResult(this.result);
     }
+
+    $scope.onFocusOut = function(){
+        console.log("onFocusOut");
+    }
 }
 
