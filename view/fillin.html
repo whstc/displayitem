@@ -1,0 +1,12 @@
+<div ng-controller="FillinController">
+    <div class="questionContainer radius">
+        <div class="question">
+            <span ng-repeat="subContent in fillinContent">
+                <span ng-show="$index%2==0">{{subContent.value}}</span>
+                <input ng-hide="$index%2==0"  ng-change="changeResult();" ng-model="result[subContent.value]"/>
+
+            </span>
+        </div>
+    </div>
+
+</div>

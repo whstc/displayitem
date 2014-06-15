@@ -15,8 +15,16 @@ module.service( 'Item', [ '$rootScope', function( $rootScope ) {
             }
           }
         },
+        {
+            type:"fillin",
+            content: {
+                title: "What [[s1]] Baby [[s2]] ask Mother Bear?"
+            }
+        },
         { type: "multiple", author: "J.R.R Tolkien" }
     ]
+
+
     var service = {
 
         next: function () {
@@ -28,6 +36,10 @@ module.service( 'Item', [ '$rootScope', function( $rootScope ) {
         },
         current : function(){
             return allItems[itemIdex];
+        },
+        setResult : function(result){
+            allItems[itemIdex].result = result;
+            console.log("setResult: " +  result);
         }
     }
     return service;

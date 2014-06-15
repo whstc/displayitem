@@ -4,22 +4,50 @@ function ItemManager($scope,Item) {
 
     $scope.showerUrl = "begin";
     $scope.showNextItem = function (){
-        console.log("showNextItem");
+
         curItem = Item.next();
 
-        if(curItem.type == "single"){
-            console.log("showNextItem::single");
-            $scope.showerUrl = curItem.type;
-        }
+        console.log("showNextItem::" + curItem.type);
+        $scope.showerUrl = curItem.type;
     }
 }
 
 function SingleController($scope,Item){
     $scope.curItem = Item.current();
 
-    $scope.selectOption = function (row){
-        console.log("selectOption :: " + row );
-        $scope.selectRow = row;
+    $scope.selectOption = function (optionId){
+        console.log("selectOption :: " + optionId );
+        $scope.selectId = optionId;
+        Item.setResult(optionId);
     }
 
 }
+
+function FillinController($scope,Item){
+    $scope.result = {};
+
+    var curItem = Item.current();
+    var title = curItem.content.title;
+    //是数组的形式，其中第一个是普通字符串，第二个是键值
+    var titleSplit = title.split(/\[\[(.{2})\]\]/);
+    var fillinContent = [];
+
+    for(var i = 0; i < titleSplit.length; i++){
+        var subContent = {};
+        if(i%2 == 0){
+            subContent.type="content";
+        }else{
+            subContent.type="key";
+        }
+        subContent.value = titleSplit[i];
+
+        fillinContent.push(subContent);
+    }
+
+    $scope.fillinContent = fillinContent;
+
+    $scope.changeResult = function(){
+        Item.setResult(this.result);
+    }
+}
+

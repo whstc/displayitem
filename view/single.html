@@ -5,8 +5,8 @@
         <div class="answers">
             <ul>
                 <li ng-repeat="(aOptionId, aOption) in curItem.content.options">
-                    <div class="answer a radius" ng-class='{answerSelected : $index==selectRow}'
-                         ng-click='selectOption($index)'>
+                    <div class="answer a radius" ng-class='{answerSelected : aOptionId==selectId}'
+                         ng-click='selectOption(aOptionId)'>
                         <div class="answerButton">
                             <img alt="" ng-src="./image/{{$index}}_btn.png">
                             <input id="option_{{aOptionId}}" class="ans" type="radio" name="q1" >
