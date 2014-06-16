@@ -4,6 +4,12 @@ module.service( 'Item', [ '$rootScope', function( $rootScope ) {
     var itemIdex = -1;
     var allItems = [
         {
+            type:"fillin",
+            content: {
+                title: "What [[s1]] Baby [[s2]] ask Mother Bear?"
+            }
+        },
+        {
           type: "single",
           content: {
               title : "What did Baby Bear ask Mother Bear?",
@@ -15,12 +21,7 @@ module.service( 'Item', [ '$rootScope', function( $rootScope ) {
             }
           }
         },
-        {
-            type:"fillin",
-            content: {
-                title: "What [[s1]] Baby [[s2]] ask Mother Bear?"
-            }
-        },
+
         { type: "multiple", author: "J.R.R Tolkien" }
     ]
 
