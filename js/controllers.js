@@ -50,6 +50,11 @@ function FillinController($scope,Item){
         Item.setResult(this.result);
     }
 
+
+    $scope.setFocus = function (){
+        $scope.isFocus = true;
+        console.log("setFocus")
+    }
     $scope.onFocusOut = function(){
         console.log("onFocusOut");
     }

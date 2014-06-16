@@ -1,13 +1,19 @@
-var module = angular.module("displayitem",[]);
+angular.module('displayitem').directive('ngFocus', function($timeout) {
+    return {
+        link: function ( scope, element, attrs ) {
+            scope.$watch( attrs.ngFocus, function ( val ) {
+                if ( angular.isDefined( val ) && val ) {
+                    $timeout( function () { element[0].focus(); } );
+                }
+            }, true);
 
-module.directive('ngFocusOut', function( $timeout ) {
-    return function( $scope, elem, attrs ) {
-        $scope.$watch(attrs.ngFocusOut, function( newval ) {
-            if ( newval ) {
-                $timeout(function() {
-                    elem[0].focusout();
-                }, 0, false);
-            }
-        });
+            element.bind('blur', function () {
+
+                if ( angular.isDefined( attrs.ngFocusLost ) ) {
+                    scope.$apply( attrs.ngFocusLost );
+
+                }
+            });
+        }
     };
 });

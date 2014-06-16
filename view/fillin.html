@@ -5,7 +5,7 @@
                 <span ng-show="$index%2==0">{{subContent.value}}</span>
                 <input ng-hide="$index%2==0"  ng-change="changeResult();"
                        ng-model="result[subContent.value]"
-                       ng-focus-out="onFocusOut()"/>
+                       ng-focus-lost="onFocusOut()" ng-focus/>
 
             </span>
         </div>
