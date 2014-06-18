@@ -1,4 +1,5 @@
 
+
 function ItemManager($scope,Item) {
     var curItem;
 
@@ -54,6 +55,11 @@ function FillinController($scope,Item){
     $scope.setFocus = function (){
         $scope.isFocus = true;
         console.log("setFocus")
+    }
+
+    $scope.onFocusIn = function(obj){
+        $scope.keybordBind = obj
+        console.log(obj);
     }
     $scope.onFocusOut = function(){
         console.log("onFocusOut");

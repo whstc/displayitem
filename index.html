@@ -2,15 +2,22 @@
 <html ng-app="displayitem">
 <head>
     <link  type="text/css" href="./css/type_single.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css">
 
-    <script src="./js/angular.min.js"></script>
-    <script src="./js/jquery-1.2.6.min.js"></script>
-    <script src="./js/jquery-ui-personalized-1.5.2.min.js"></script>
-    <script src="./js/jquery-fieldselection.js"></script>
 
-    <script src="js/controllers.js"></script>
-    <script src="js/services.js"> </script>
-    <script src="js/directive.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+
+
+    <!--<script src="./js/jquery-1.8.3.js"></script>-->
+    <!--<script src="./js/jquery-ui-personalized-1.5.2.min.js"></script>-->
+    <!--<script src="./js/jquery-fieldselection.js"></script>-->
+    <!--<script src="./js/jquery.ui.widget.js"></script>-->
+    <script src="./js/jquery.tian.vertualKey.js"></script>
+    <!--<script src="./js/jquery.ui.datepicker.js"></script>-->
+
+
+
     <script type="text/javascript">
         if(!console){
             var console = {
@@ -23,11 +30,22 @@
 
 </head>
 <body ng-controller="ItemManager">
+<!--<my-datepicker type="text" ng-model="user.dateOfBirth" ></my-datepicker>-->
+<my-key type="text" ng-model="user.dateOfBirth" ></my-key>
 
 
     <div ng-include="'./view/' + showerUrl + '.html'"></div>
 
-
     <input type="button" value="get next item" ng-click="showNextItem()">
+    <script src="./js/angular.min.js"></script>
+    <script src="js/directive.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"> </script>
+
+    <script type="text/javascript">
+
+        var module = angular.module("displayitem",["displayitem.service","displayitem.directive"]);
+    </script>
+
 </body>
 </html>

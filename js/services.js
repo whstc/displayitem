@@ -1,4 +1,4 @@
-var module = angular.module("displayitem",[]);
+var module = angular.module("displayitem.service",[]);
 
 module.service( 'Item', [ '$rootScope', function( $rootScope ) {
     var itemIdex = -1;
