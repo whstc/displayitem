@@ -1,6 +1,8 @@
 
 
 function ItemManager($scope,Item) {
+    $scope.version="0.1.0";
+
     var curItem;
 
     $scope.showerUrl = "begin";
