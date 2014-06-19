@@ -48,9 +48,9 @@ function FillinController($scope,Item){
     $scope.fillinContent = fillinContent;
 
     $scope.changeResult = function(){
+        console.log(this.result);
         Item.setResult(this.result);
     }
-
 
 
 }

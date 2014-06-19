@@ -646,7 +646,7 @@
 
         /* Filter entered characters - based on date format. */
         _doKeyPress: function(event) {
-//            console.log("_doKeyPress");
+
             var chars, chr,
                 inst = $.datepicker._getInst(event.target);
 
@@ -974,6 +974,7 @@
             var inst,
                 target = $(id);
 //
+
             if ($(td).hasClass(this._unselectableClass) || this._isDisabledDatepicker(target[0])) {
                 return;
             }
@@ -989,6 +990,7 @@
             }
 //            console.log();
 //            console.log(this.onSelect);
+
 
 //            inst.selectedDay = inst.currentDay = $("a", td).html();
 //            inst.selectedMonth = inst.currentMonth = month;

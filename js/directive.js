@@ -12,6 +12,7 @@ module.directive('myKey', function ($parse) {
 
             var modelAccessor = $parse(attrs.ngModel);
 
+
             return function (scope, element, attrs, controller) {
 
                 var processChange = function (val) {
@@ -19,11 +20,13 @@ module.directive('myKey', function ($parse) {
                         modelAccessor.assign(scope,val);
                         scope.$eval(attrs.ngChange);
                     });
+
                 };
 
                 element.virtualKeyboard({
                     onSelect:processChange
                 });
+
 
 
             };
