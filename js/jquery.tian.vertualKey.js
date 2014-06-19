@@ -1,4 +1,5 @@
 /*!
+ * 虚拟键盘
  * jQuery UI Datepicker 1.10.4
  * http://jqueryui.com
  *
@@ -173,8 +174,10 @@
                 return;
             }
             this._attachments(input, inst);
-            input.addClass(this.markerClassName).keydown(this._doKeyDown).
-                keypress(this._doKeyPress).keyup(this._doKeyUp);
+            //changed by tian
+            input.addClass(this.markerClassName).keyup(this._doKeyUp);
+//            input.addClass(this.markerClassName).keydown(this._doKeyDown).
+//                keypress(this._doKeyPress).keyup(this._doKeyUp);
             this._autoSize(inst);
             $.data(target, PROP_NAME, inst);
             //If disabled option is true, disable the datepicker once it has been attached to the input (see ticket #5665)
@@ -643,6 +646,7 @@
 
         /* Filter entered characters - based on date format. */
         _doKeyPress: function(event) {
+//            console.log("_doKeyPress");
             var chars, chr,
                 inst = $.datepicker._getInst(event.target);
 
@@ -963,20 +967,34 @@
         },
 
         /* Action for selecting a day. */
+        //changeed by tian
         _selectDay: function(id, month, year, td) {
+//            console.log( $("a", td).html());
+
             var inst,
                 target = $(id);
-
+//
             if ($(td).hasClass(this._unselectableClass) || this._isDisabledDatepicker(target[0])) {
                 return;
             }
 
             inst = this._getInst(target[0]);
-            inst.selectedDay = inst.currentDay = $("a", td).html();
-            inst.selectedMonth = inst.currentMonth = month;
-            inst.selectedYear = inst.currentYear = year;
-            this._selectDate(id, this._formatDate(inst,
-                inst.currentDay, inst.currentMonth, inst.currentYear));
+
+            var inputValue = target.val()?target.val():"";
+            target.val(inputValue + $("a", td).html());
+            var onSelect = $.datepicker._get(inst, "onSelect");
+            if (onSelect) {
+               // trigger custom callback
+                onSelect.apply((inst.input ? inst.input[0] : null),[target.val()]);
+            }
+//            console.log();
+//            console.log(this.onSelect);
+
+//            inst.selectedDay = inst.currentDay = $("a", td).html();
+//            inst.selectedMonth = inst.currentMonth = month;
+//            inst.selectedYear = inst.currentYear = year;
+//            this._selectDate(id, this._formatDate(inst,
+//                inst.currentDay, inst.currentMonth, inst.currentYear));
         },
 
         /* Erase the input field and hide the date picker. */
@@ -1706,7 +1724,7 @@
                         calender += "<tr>";
                         tbody = "";
                         for (dow = 0; dow < 13; dow++) {
-                            tbody += "<td class=''>" +
+                            tbody += "<td class='' data-handler=\"selectDay\" data-event=\"click\">" +
                                 "<a class='ui-state-default ui-state-hovert" +
                                 "' href='#'>" + String.fromCharCode(97 + dRow*14 + dow) + "</a>"
                                 + "</td>";

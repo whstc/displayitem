@@ -40,7 +40,8 @@ module.service( 'Item', [ '$rootScope', function( $rootScope ) {
         },
         setResult : function(result){
             allItems[itemIdex].result = result;
-            console.log("setResult: " +  result);
+            console.log("service::set result");
+            console.log(result);
         }
     }
     return service;

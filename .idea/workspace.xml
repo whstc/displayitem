@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/js/services.js" line="46" />
+    <bookmark url="file://$PROJECT_DIR$/js/services.js" line="47" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d7e9291-eeab-48b7-9968-d3546e72b254" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/jQuery-UI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.8.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/jquery-1.8.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.tian.vertualKey.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.ui.datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/jquery.ui.datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.ui.widget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/tian-date.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/angular-resource.min.js" afterPath="$PROJECT_DIR$/js/angular-resource.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/angular.min.js" afterPath="$PROJECT_DIR$/js/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers.js" afterPath="$PROJECT_DIR$/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directive.js" afterPath="$PROJECT_DIR$/js/directive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/displayitem.iml" afterPath="$PROJECT_DIR$/.idea/displayitem.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/fillin.html" afterPath="$PROJECT_DIR$/view/fillin.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/index.html" afterPath="$PROJECT_DIR$/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-1.2.6.min.js" afterPath="$PROJECT_DIR$/js/jquery-1.2.6.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/jquery-1.2.6.min.js" afterPath="$PROJECT_DIR$/test/jquery-1.2.6.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-1.8.3.js" afterPath="$PROJECT_DIR$/js/jquery-1.8.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/jquery-1.8.3.js" afterPath="$PROJECT_DIR$/test/jquery-1.8.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-ui-personalized-1.5.2.min.js" afterPath="$PROJECT_DIR$/js/jquery-ui-personalized-1.5.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/jquery-ui-personalized-1.5.2.min.js" afterPath="$PROJECT_DIR$/test/jquery-ui-personalized-1.5.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.tian.vertualKey.js" afterPath="$PROJECT_DIR$/js/jquery.tian.vertualKey.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.ui.datepicker.js" afterPath="$PROJECT_DIR$/js/jquery.ui.datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/jquery.ui.datepicker.js" afterPath="$PROJECT_DIR$/test/jquery.ui.datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.ui.widget.js" afterPath="$PROJECT_DIR$/js/jquery.ui.widget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/keyboardstyle.css" afterPath="$PROJECT_DIR$/css/keyboardstyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/keyboardstyle.css" afterPath="$PROJECT_DIR$/test/keyboardstyle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services.js" afterPath="$PROJECT_DIR$/js/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/showdown.js" afterPath="$PROJECT_DIR$/js/showdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tiantest.html" afterPath="$PROJECT_DIR$/test/tiantest.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="displayitem.iws" />
@@ -86,10 +93,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="370" selection-end="370" vertical-scroll-proportion="3.362069" vertical-offset="435" max-vertical-offset="1344">
+            <state line="25" column="0" selection-start="605" selection-end="605" vertical-scroll-proportion="0.61736333" vertical-offset="216" max-vertical-offset="1104">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="21" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1512">
               <folding />
             </state>
           </provider>
@@ -98,16 +114,36 @@
       <file leaf-file-name="directive.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/directive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="31" selection-start="2357" selection-end="2357" vertical-scroll-proportion="-11.56" vertical-offset="1703" max-vertical-offset="2496">
+            <state line="18" column="39" selection-start="514" selection-end="514" vertical-scroll-proportion="-8.56" vertical-offset="218" max-vertical-offset="912">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.tian.vertualKey.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="jquery.tian.vertualKey.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/jquery.tian.vertualKey.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1991" column="49" selection-start="95008" selection-end="95008" vertical-scroll-proportion="0.4181818" vertical-offset="47220" max-vertical-offset="47880">
+            <state line="140" column="20" selection-start="8911" selection-end="8911" vertical-scroll-proportion="-10.56" vertical-offset="3096" max-vertical-offset="48600">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="21" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="1272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fillin.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/fillin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="70" selection-start="353" selection-end="388" vertical-scroll-proportion="-5.090909" vertical-offset="0" max-vertical-offset="552">
               <folding />
             </state>
           </provider>
@@ -131,14 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/view/begin.html" />
-        <option value="$PROJECT_DIR$/css/type_single.css" />
-        <option value="$PROJECT_DIR$/view/single.html" />
-        <option value="$PROJECT_DIR$/test/edit-full.html" />
-        <option value="$PROJECT_DIR$/test/edit_full.html" />
-        <option value="$PROJECT_DIR$/test/vnumpad.js" />
-        <option value="$PROJECT_DIR$/test/vkboards.js" />
-        <option value="$PROJECT_DIR$/test/vkboards_tian.js" />
         <option value="$PROJECT_DIR$/test/edit-tian.html" />
         <option value="$PROJECT_DIR$/view/virtureKey.html" />
         <option value="$PROJECT_DIR$/css/keyboardstyle.css" />
@@ -146,13 +174,15 @@
         <option value="$PROJECT_DIR$/test/jquery-ui.js" />
         <option value="$PROJECT_DIR$/test/tian-date.html" />
         <option value="$PROJECT_DIR$/test/jquery.ui.datepicker.js" />
+        <option value="$PROJECT_DIR$/js/jquery.ui.datepicker.js" />
+        <option value="$PROJECT_DIR$/css/jquery-ui.css" />
+        <option value="$PROJECT_DIR$/js/jquery-1.11.1.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/view/fillin.html" />
+        <option value="$PROJECT_DIR$/js/directive.js" />
+        <option value="$PROJECT_DIR$/js/jquery.tian.vertualKey.js" />
         <option value="$PROJECT_DIR$/js/controllers.js" />
         <option value="$PROJECT_DIR$/js/services.js" />
-        <option value="$PROJECT_DIR$/view/fillin.html" />
-        <option value="$PROJECT_DIR$/js/jquery.ui.datepicker.js" />
-        <option value="$PROJECT_DIR$/js/directive.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/jquery.tian.vertualKey.js" />
       </list>
     </option>
   </component>
@@ -160,7 +190,7 @@
     <option name="x" value="-4" />
     <option name="y" value="-4" />
     <option name="width" value="1448" />
-    <option name="height" value="878" />
+    <option name="height" value="848" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -190,6 +220,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -233,42 +264,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="displayitem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="displayitem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/readtestWorkspace/reading_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\JavascriptWorlspace\displayitem\js" />
-      <recent name="E:\JavascriptWorlspace\displayitem\test" />
+      <recent name="D:\JavascriptWorkspace\displayitem\css\images" />
       <recent name="D:\JavascriptWorkspace\displayitem\css" />
       <recent name="D:\JavascriptWorkspace\displayitem\js" />
-      <recent name="D:\JavascriptWorkspace\displayitem\test" />
+      <recent name="E:\JavascriptWorlspace\displayitem\js" />
+      <recent name="E:\JavascriptWorlspace\displayitem\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JavascriptWorkspace\displayitem\js" />
@@ -476,22 +492,22 @@
       <workItem from="1402977071880" duration="3125000" />
       <workItem from="1402990747234" duration="8433000" />
       <workItem from="1403054994953" duration="14728000" />
+      <workItem from="1403138104312" duration="6402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46646000" />
+    <option name="totallyTimeSpent" value="53048000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1448" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1448" height="848" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06896552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -506,33 +522,34 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2074392" sideWeight="0.9297012" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22603719" sideWeight="0.46153846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53846157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2074392" sideWeight="0.9297012" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2263589" sideWeight="0.46153846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06896552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53846157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26609442" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -559,211 +576,40 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/tian-date.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/jquery.ui.datepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="48168">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="912">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="37" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="2160">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/virtureKey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/fillin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="418" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="528">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1248">
+        <state line="25" column="0" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1104">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="37" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0" vertical-offset="982" max-vertical-offset="1752">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tiantest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="53" selection-start="3999" selection-end="3999" vertical-scroll-proportion="0.0" vertical-offset="2352" max-vertical-offset="3264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/vkeyboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="4" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="1920" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="43" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="912">
+        <state line="49" column="23" selection-start="1115" selection-end="1127" vertical-scroll-proportion="0.0" vertical-offset="1176" max-vertical-offset="1512">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/directive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="37" selection-start="719" selection-end="729" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="2136">
+        <state line="28" column="18" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="1176">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/keyboardstyle.css">
+    <entry file="file://$PROJECT_DIR$/js/jquery.tian.vertualKey.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/virtureKey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="2974" selection-end="2974" vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="2040">
-          <folding />
+        <state line="982" column="22" selection-start="46869" selection-end="46869" vertical-scroll-proportion="0.0" vertical-offset="23568" max-vertical-offset="48480">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/fillin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="528">
+        <state line="7" column="51" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="552">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1248">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tiantest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="55" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="696" max-vertical-offset="3264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/vkeyboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/vkboards_tian.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="355" column="39" selection-start="12644" selection-end="12644" vertical-scroll-proportion="-13.2" vertical-offset="9255" max-vertical-offset="35424" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/edit-tian.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="364" column="32" selection-start="11804" selection-end="11804" vertical-scroll-proportion="1.2944785" vertical-offset="7892" max-vertical-offset="9120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3984">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/keyboardstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="17" selection-start="463" selection-end="463" vertical-scroll-proportion="0.29889297" vertical-offset="432" max-vertical-offset="1458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8" selection-start="152" selection-end="179" vertical-scroll-proportion="0.16007905" vertical-offset="0" max-vertical-offset="810" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-ui-personalized-1.5.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1539" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-1.2.6.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="5170" selection-start="22676" selection-end="22676" vertical-scroll-proportion="0.33333334" vertical-offset="364" max-vertical-offset="756">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/keyboardstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="332" selection-end="332" vertical-scroll-proportion="0.41260746" vertical-offset="0" max-vertical-offset="1200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/vkeyboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="4" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="1920" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/virtureKey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="678" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tiantest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="53" selection-start="3999" selection-end="3999" vertical-scroll-proportion="0.4785276" vertical-offset="2352" max-vertical-offset="3264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="24" selection-start="862" selection-end="862" vertical-scroll-proportion="-9.64" vertical-offset="455" max-vertical-offset="1416">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,9 +634,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.ui.widget.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12600">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery-1.8.3.js">
@@ -800,32 +644,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1776">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1248">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/fillin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="3" selection-start="616" selection-end="616" vertical-scroll-proportion="-0.0" vertical-offset="456" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/jquery.ui.datepicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="19" selection-start="285" selection-end="285" vertical-scroll-proportion="0.45547447" vertical-offset="0" max-vertical-offset="48168">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -834,28 +657,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1807" column="20" selection-start="75948" selection-end="75963" vertical-scroll-proportion="0.0" vertical-offset="43140" max-vertical-offset="44448">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.11.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="370" selection-end="370" vertical-scroll-proportion="3.362069" vertical-offset="435" max-vertical-offset="1344">
+        <state line="10292" column="22" selection-start="396949" selection-end="396949" vertical-scroll-proportion="0.0" vertical-offset="277783" max-vertical-offset="278451">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.ui.core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8559">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/directive.js">
+    <entry file="file://$PROJECT_DIR$/css/jquery-ui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="31" selection-start="2357" selection-end="2357" vertical-scroll-proportion="-11.56" vertical-offset="1703" max-vertical-offset="2496">
+        <state line="548" column="18" selection-start="13064" selection-end="13064" vertical-scroll-proportion="0.83302754" vertical-offset="14342" max-vertical-offset="31860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3984">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/fillin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="70" selection-start="353" selection-end="388" vertical-scroll-proportion="-5.090909" vertical-offset="0" max-vertical-offset="552">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.tian.vertualKey.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1991" column="49" selection-start="95008" selection-end="95008" vertical-scroll-proportion="0.4181818" vertical-offset="47220" max-vertical-offset="47880">
+        <state line="140" column="20" selection-start="8911" selection-end="8911" vertical-scroll-proportion="-10.56" vertical-offset="3096" max-vertical-offset="48600">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="39" selection-start="514" selection-end="514" vertical-scroll-proportion="-8.56" vertical-offset="218" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="21" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="21" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="1272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="605" selection-end="605" vertical-scroll-proportion="0.61736333" vertical-offset="216" max-vertical-offset="1104">
           <folding />
         </state>
       </provider>
