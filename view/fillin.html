@@ -5,9 +5,7 @@
             <span ng-repeat="subContent in fillinContent">
                 <span ng-show="$index%2==0">{{subContent.value}}</span>
                 <span ng-hide="$index%2==0">
-                     <!--ng-change="changeResult();"-->
-                    <my-datepicker type="text"
-                       ng-model="result[subContent.value]"></my-datepicker>
+                     <input my-key ng-model="result[subContent.value]" ng-change="changeResult()"/>
                 </span>
 
             </span>
