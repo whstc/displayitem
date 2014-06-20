@@ -15,19 +15,37 @@
         if(!console){
             var console = {
                 log : function(message){
-                    alert(message);
+                    var tianLogShower = $("#tianLogShower");
+                    var appendStr = "";
+                    if(typeof message === "string"){
+                        appendStr = message;
+                    }else{
+                        for(var key in message){
+                            appendStr += key;
+                            appendStr += "::";
+                            appendStr += message[key];
+                            appendStr += "<br />";
+                        }
+                    }
+                    tianLogShower.html(tianLogShower.html() + appendStr);
                 }
-        }
+            }
+        }else{
+            $("#tianLogShower").html("信息打印到了console中");
         }
     </script>
 
 </head>
 <body ng-controller="ItemManager">
 <div>Version : {{version}}</div>
+<div id="tianLogShower">
+</div>
 
     <div ng-include="'./view/' + showerUrl + '.html'"></div>
 
     <input type="button" value="get next item" ng-click="showNextItem()">
+
+
     <script src="./js/angular.js"></script>
     <script src="js/directive.js"></script>
     <script src="js/controllers.js"></script>
