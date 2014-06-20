@@ -1,7 +1,7 @@
 
 
 function ItemManager($scope,Item) {
-    $scope.version="0.1.0";
+    $scope.version="0.1.1";
 
     var curItem;
 
@@ -32,7 +32,13 @@ function FillinController($scope,Item){
     var curItem = Item.current();
     var title = curItem.content.title;
     //是数组的形式，其中第一个是普通字符串，第二个是键值
-    var titleSplit = title.split(/\[\[(.{2})\]\]/);
+//    var titleSplit = title.split(/\[\[(.{2})\]\]/);
+    var first = title.split("[[");
+    var titleSplit = [];
+    for(var index in first){
+        titleSplit = titleSplit.concat(first[index].split("]]"));
+    }
+    console.log(titleSplit)
     var fillinContent = [];
 
     for(var i = 0; i < titleSplit.length; i++){
@@ -53,6 +59,8 @@ function FillinController($scope,Item){
         console.log(this.result);
         Item.setResult(this.result);
     }
+
+
 
 
 }

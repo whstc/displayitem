@@ -18,15 +18,17 @@
                     var tianLogShower = $("#tianLogShower");
                     var appendStr = "";
                     if(typeof message === "string"){
-                        appendStr = message;
+                        appendStr = message + "<br />";
                     }else{
                         for(var key in message){
                             appendStr += key;
                             appendStr += "::";
                             appendStr += message[key];
-                            appendStr += "<br />";
+                            appendStr += "----";
                         }
                     }
+
+                    appendStr += "<br />";
                     tianLogShower.html(tianLogShower.html() + appendStr);
                 }
             }
@@ -38,7 +40,7 @@
 </head>
 <body ng-controller="ItemManager">
 <div>Version : {{version}}</div>
-<div id="tianLogShower">
+<div id="tianLogShower" style="height: 1px">
 </div>
 
     <div ng-include="'./view/' + showerUrl + '.html'"></div>
