@@ -26,19 +26,35 @@ module.service( 'Item', [ '$rootScope', function( $rootScope ) {
     ]
 
 
+
     var service = {
 
+        hasResult : true,
+        observerCallbacks : [],
+        registerObserverCallback : function(callback){
+            this.observerCallbacks.push(callback);
+        },
+        notifyObservers : function(){
+            angular.forEach(this.observerCallbacks, function(callback){
+                 callback();
+            });
+        },
         next: function () {
             itemIdex ++;
             if(itemIdex > allItems.length){
                 itemIdex = allItems.length;
             }
+
+            this.hasResult = false;
+            this.notifyObservers();
             return allItems[itemIdex];
         },
         current : function(){
             return allItems[itemIdex];
         },
         setResult : function(result){
+            this.hasResult = true;
+            this.notifyObservers();
             allItems[itemIdex].result = result;
             console.log("service::set result");
             console.log(result);

@@ -2,6 +2,7 @@
 <html ng-app="displayitem">
 <head>
     <link  type="text/css" href="./css/type_single.css" rel="stylesheet"/>
+    <link type="text/css" href="./css/sample_quizzes.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/jquery-ui.css">
 
 
@@ -39,13 +40,16 @@
 
 </head>
 <body ng-controller="ItemManager">
-<div>Version : {{version}}</div>
+<div>Version : {{version}}
+    <!--<input class="haha-{{hasResult}}" type="button" value="get next item" ng-click="showNextItem()">-->
+    <div class="next buttonHover show_{{hasResult}}" ng-click="showNextItem()"></div>
+</div>
+
+
 <div id="tianLogShower" style="height: 1px">
 </div>
 
     <div ng-include="'./view/' + showerUrl + '.html'"></div>
-
-    <input type="button" value="get next item" ng-click="showNextItem()">
 
 
     <script src="./js/angular.js"></script>

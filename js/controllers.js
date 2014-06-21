@@ -4,15 +4,20 @@ function ItemManager($scope,Item) {
     $scope.version="0.1.1";
 
     var curItem;
-
     $scope.showerUrl = "begin";
     $scope.showNextItem = function (){
-
         curItem = Item.next();
-
+//        $scope.hasResult = false;
         console.log("showNextItem::" + curItem.type);
         $scope.showerUrl = curItem.type;
     }
+
+    $scope.hasResult = Item.hasResult;
+    Item.registerObserverCallback(function(){
+        $scope.hasResult = Item.hasResult;
+        console.log("registerObserverCallback::"+Item.hasResult);
+    });
+
 }
 
 function SingleController($scope,Item){

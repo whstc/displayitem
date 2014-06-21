@@ -116,19 +116,27 @@ ul li {
     z-index: 10;
 }
 .divider {
-    background-image: url('../image/divider.jpg');
     height: 3px;
     width: 100%;
     margin-top: 25px;
 }
 .next {
-    margin: 65px auto 0 auto;
+    background-image: url('../css/images/next_btn.jpg');
+    margin: 0px auto 0 auto;
     width: 137px;
     height: 36px;
     overflow: hidden;
     text-align: center;
     cursor: pointer;
 }
+/* added by tian */
+.show_true {
+    visibility:visible;
+}
+.show_false {
+    visibility: hidden;
+}
+
 .ans {
     position: relative;
     right: 32px;
@@ -154,9 +162,11 @@ ul li {
     width: 100%;
     margin: 0;
     height: 57px;
+    background-image: url('/portals/0/img/prod/sample-quizzes/hdr_tile.jpg');
 }
 .buttonHover {
     background-position: top;
+    overflow: hidden;
     cursor: pointer;
 }
 .buttonHover:hover {
@@ -165,12 +175,14 @@ ul li {
 .stopQuiz {
     height: 36px;
     width: 76px;
+    background-image: url('/portals/0/img/prod/sample-quizzes/stop_quiz.jpg');
     float: left;
     margin-top: 8px;
 }
 .doneButton {
     height: 36px;
     width: 76px;
+    background-image: url('/portals/0/img/prod/sample-quizzes/done_btn.jpg');
     float: left;
     margin-top: 8px;
 }
@@ -182,17 +194,20 @@ ul li {
 .topsButton {
     height: 36px;
     width: 204px;
+    background-image: url('/portals/0/img/prod/sample-quizzes/tops_btn.jpg');
     margin: 10px auto;
 }
 .reviewButton {
     height: 36px;
     width: 204px;
+    background-image: url('/portals/0/img/prod/sample-quizzes/review_btn.jpg');
     margin: 10px auto;
 }
 .vocabButton {
     height: 36px;
     width: 204px;
-   margin: 10px auto;
+    background-image: url('/portals/0/img/prod/sample-quizzes/vocab_btn.jpg');
+    margin: 10px auto;
 }
 .vocabWords {
     width: 335px;
@@ -222,7 +237,9 @@ ul li {
     border-bottom: 1px solid #d8e0e7;
     padding: 10px;
 }
-
+.vocabCorrect {
+    background-image: url('/portals/0/img/prod/sample-quizzes/vocab_right.png');
+}
 .noBorder {
     border: none;
 }
@@ -233,6 +250,7 @@ ul li {
 Dummy Star Rating System Styles
 **********************************************/
 .star {
+    background-image: url('/portals/0/img/prod/sample-quizzes/star_sprite.jpg');
     background-position: bottom;
     width: 84px;
     height: 84px;
@@ -241,6 +259,7 @@ Dummy Star Rating System Styles
     cursor: pointer;
 }
 .starSmall {
+    background-image: url('/portals/0/img/prod/sample-quizzes/star_sprite_sm.jpg');
     background-position: bottom;
     width: 24px;
     height: 24px;
