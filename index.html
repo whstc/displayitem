@@ -1,0 +1,73 @@
+<!doctype html>
+<html ng-app="displayitem">
+<head>
+        <!--<link  type="text/css" href="./css/type_single.css" rel="stylesheet"/>-->
+        <!--<link type="text/css" href="./css/sample_quizzes.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="./css/jquery-ui.css">
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+    <script src="./js/jquery-1.11.1.js"></script>
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+    <script type="text/javascript">
+        if(!console){
+            var console = {
+                log : function(message){
+                    var tianLogShower = $("#tianLogShower");
+                    var appendStr = "";
+                    if(typeof message === "string"){
+                        appendStr = message + "<br />";
+                    }else{
+                        for(var key in message){
+                            appendStr += key;
+                            appendStr += "::";
+                            appendStr += message[key];
+                            appendStr += "----";
+                        }
+                    }
+
+                    appendStr += "<br />";
+                    tianLogShower.html(tianLogShower.html() + appendStr);
+                }
+            }
+        }else{
+            $("#tianLogShower").html("信息打印到了console中");
+        }
+    </script>
+
+</head>
+<body ng-controller="ItemManager">
+
+<div id="tianLogShower" style="height: 1px">
+</div>
+
+    <div ng-include="'./view/' + showerUrl + '.html'"></div>
+
+
+    <script src="./js/angular.js"></script>
+    <script src="js/directive.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"> </script>
+
+    <script type="text/javascript">
+
+        var module = angular.module("displayitem",["displayitem.service","displayitem.directive"]);
+    </script>
+
+</body>
+</html>

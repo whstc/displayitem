@@ -1,0 +1,275 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #e1ebf5;
+    cursor: default;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+.questionContainer {
+    width: 790px;
+    background-color: #fff;
+    padding: 50px 65px;
+    margin: 10px auto;
+    border: 2px solid #c4cdd6;
+    min-height: 500px;
+}
+.bookContainer{
+    width: 263px;
+    color: #666;
+    font-size: 12px;
+    float: left;
+    min-height: 400px;
+}
+.bookContainer img {
+    width: 210px;
+    height: auto;
+}
+.aside {
+    background-image: url('/portals/0/img/prod/sample-quizzes/book_feat.jpg');
+    background-repeat: repeat-y;
+    padding: 20px 25px;
+    width: 870px;
+}
+.question {
+    font-size: 26px;
+}
+.qNum {
+    color: #888;
+    margin-bottom: 28px;
+}
+.score {
+    width: 406px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.stat {
+    background-image: url('/portals/0/img/prod/sample-quizzes/stat_bg.jpg');
+    background-color: #fafafa;
+    width: 90px;
+    height: 70px;
+    float: left;
+    border: 1px solid #ddd;
+    margin: 10px;
+    text-align: center;
+}
+.statsButtons {
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    clear: both;
+    width: 335px;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+ul {
+    margin: 0px;
+    padding: 5px;
+}
+ul li label:hover {
+    cursor: pointer;
+}
+ul li {
+    list-style: none;
+    position: relative;
+    right: 10px;
+    display: block;
+    margin-bottom: 25px;
+}
+.answerText {
+    padding-top: 12px;
+    width: 90%;
+}
+.answer div {
+    float: left;
+}
+.answer {
+    float: left;
+    position: relative;
+    left: -20px;
+    clear: both;
+    width: 96%;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 3px;
+    border: 3px solid transparent;
+}
+.answerSelected {
+    background-color: #e8f0f7;
+    border: 3px solid #215594;
+}
+.radius {
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -o-border-radius: 12px;
+    border-radius: 12px;
+}
+.answers {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.answers img {
+    z-index: 10;
+}
+.divider {
+    height: 3px;
+    width: 100%;
+    margin-top: 25px;
+}
+.next {
+    background-image: url('../css/images/next_btn.jpg');
+    margin: 0px auto 0 auto;
+    width: 137px;
+    height: 36px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+/* added by tian */
+.show_true {
+    visibility:visible;
+}
+.show_false {
+    visibility: hidden;
+}
+
+.ans {
+    position: relative;
+    right: 32px;
+    top: -14px;
+    z-index: -10;
+}
+.bookTitle {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    float: left;
+    text-align: center;
+    width: 80%;
+    padding-top: 2px;
+}
+.studentName {
+    font-size: 14px;
+    color: #fff;
+    padding-top: 6px;
+    float: right;
+}
+.header {
+    width: 100%;
+    margin: 0;
+    height: 57px;
+    background-image: url('/portals/0/img/prod/sample-quizzes/hdr_tile.jpg');
+}
+.buttonHover {
+    background-position: top;
+    overflow: hidden;
+    cursor: pointer;
+}
+.buttonHover:hover {
+    background-position: bottom;
+}
+.stopQuiz {
+    height: 36px;
+    width: 76px;
+    background-image: url('/portals/0/img/prod/sample-quizzes/stop_quiz.jpg');
+    float: left;
+    margin-top: 8px;
+}
+.doneButton {
+    height: 36px;
+    width: 76px;
+    background-image: url('/portals/0/img/prod/sample-quizzes/done_btn.jpg');
+    float: left;
+    margin-top: 8px;
+}
+.ratingTextSmall {
+    margin-right: 7px;
+    padding-top: 3px;
+    float: left;
+}
+.topsButton {
+    height: 36px;
+    width: 204px;
+    background-image: url('/portals/0/img/prod/sample-quizzes/tops_btn.jpg');
+    margin: 10px auto;
+}
+.reviewButton {
+    height: 36px;
+    width: 204px;
+    background-image: url('/portals/0/img/prod/sample-quizzes/review_btn.jpg');
+    margin: 10px auto;
+}
+.vocabButton {
+    height: 36px;
+    width: 204px;
+    background-image: url('/portals/0/img/prod/sample-quizzes/vocab_btn.jpg');
+    margin: 10px auto;
+}
+.vocabWords {
+    width: 335px;
+    border: 1px solid #bbb;
+    clear: both;
+    float: left;
+    margin-top: 0;
+}
+.word {
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    margin-top: 5px;
+    width: 265px;
+}
+.gradeLevel {
+    float: left;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.vocabMarker {
+    float: right;
+    height: 28px;
+    width: 28px;
+}
+.vocabEntry {
+    border-bottom: 1px solid #d8e0e7;
+    padding: 10px;
+}
+.vocabCorrect {
+    background-image: url('/portals/0/img/prod/sample-quizzes/vocab_right.png');
+}
+.noBorder {
+    border: none;
+}
+.clear { clear: both; }
+.hide {display: none;} /* Disable for development */
+
+/**********************************************
+Dummy Star Rating System Styles
+**********************************************/
+.star {
+    background-image: url('/portals/0/img/prod/sample-quizzes/star_sprite.jpg');
+    background-position: bottom;
+    width: 84px;
+    height: 84px;
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+}
+.starSmall {
+    background-image: url('/portals/0/img/prod/sample-quizzes/star_sprite_sm.jpg');
+    background-position: bottom;
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+.selected {
+    background-position: top;
+}
+.starSystem {
+    margin: 0;
+    position: relative;
+    top: -12px;
+}

@@ -1,0 +1,13 @@
+<my-datepicker type="text"/>
+<div ng-controller="FillinController">
+    <div class="questionContainer radius">
+        <div class="question">
+            <span ng-repeat="subContent in fillinContent">
+              <span ng-include="'./view/fillin_' + subContent.type + '.html'"></span>
+            </span>
+        </div>
+        <div class="divider"></div>
+
+    </div>
+
+</div>

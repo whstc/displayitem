@@ -1,0 +1,29 @@
+<div ng-controller="SingleController">
+    <div>
+        <div><p>{{curItem.content.title}}</p></div>
+        <div class="divider"></div>
+        <div class="answers">
+            <ul>
+                <li class="">
+                    <input type="radio" id="23396_441044_1213838" name="23396_441044"
+                           data-group="23396_441044" data-code="1" value="1213838">
+                    <label for="23396_441044_1213838">选项1</label>
+                </li>
+                <li ng-repeat="(aOptionId, aOption) in curItem.content.options">
+                    <div class="answer a radius" ng-class='{answerSelected : aOptionId==selectId}'
+                         ng-click='selectOption(aOptionId)'>
+                        <div class="answerButton">
+                            <!--<img alt="" ng-src="./image/{{$index}}_btn.png">-->
+                            <input id="option_{{aOptionId}}" class="ans" type="radio" name="q1" >
+                        </div>
+                        <div class="answerText">
+                            {{aOption}}
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+</div>
